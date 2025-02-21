@@ -1,0 +1,15 @@
+
+.vscode/
+__pycache__/
+
+# configuration and secrets
+.env
+
+# playground 
+temp/
+tests/
+
+# no data related  
+pycon_at_wikitext_parser/
+poetry*
+pyproject.toml
