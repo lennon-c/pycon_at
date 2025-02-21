@@ -18,7 +18,7 @@ You can actually use **Special:Export** to retrieve pages from *any* Wiki site. 
 
 **Exporting Pages from Any Wiki Site**
 
-To access the XML content of the page titled "Austria" from English Wikipedia, you can use the following Python code. When you press `run`, it will open the export link in your default browser:
+To access the XML content of the page titled "Austria" from English Wikipedia, you can construct your URL as follows. 
 """
 
 title = 'Austria'
@@ -30,7 +30,7 @@ print(url)
 
 **Exporting Pages from the German Wiktionary**
 
-For the German Wiktionary, the export tool uses `Spezial:Exportieren` instead of `Special:Export`. You can use similar Python code to open the export link for the page titled "hoch" (German for "high"):
+For the German Wiktionary, the export tool uses `Spezial:Exportieren` instead of `Special:Export`. 
 """
 
 title = 'hoch'
